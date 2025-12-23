@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>RDXSTORE</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            background: linear-gradient(to right, #9c9c8c, #4b4453);
+            color: white;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .title {
+            font-size: 26px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .subtitle {
+            margin-top: 5px;
+            opacity: 0.9;
+            font-size: 14px;
+        }
+
+        .grid {
+            margin-top: 25px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 18px;
+        }
+
+        .card {
+            background: #000;
+            border-radius: 8px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .label {
+            background: #ffe600;
+            color: #ff6a00;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 5px;
+            font-size: 18px;
+            text-shadow: 1px 1px 2px #000;
+            position: relative;
+        }
+
+        .label::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: -8px;
+            height: 8px;
+            background: repeating-linear-gradient(
+                -45deg,
+                #00bcd4,
+                #00bcd4 6px,
+                #ffe600 6px,
+                #ffe600 12px
+            );
+        }
+
+        @media (max-width: 480px) {
+            .card img {
+                height: 130px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="title">🔥 POPULER SEKARANG!</div>
+    <div class="subtitle">
+        Berikut adalah beberapa produk yang paling populer saat ini.
+    </div>
+
+    <div class="grid">
+
+        <div class="card">
+            <p>klik <a href="https://adhwayafitripamunh-star.github.io/JOKI-BOBBERS/bobber.html">disini</a> buat masuk ke menu bobber</p>
+            <div class="label">JOKI BOBBER</div>
+        </div>
+
+        <div class="card">
+            <p>klik <a href="https://adhwayafitripamunh-star.github.io/JASA-AFK/afk.html">disini</a> untuk masuk ke menu joki afk</p>
+            <div class="label">JASA AFK</div>
+        </div>
+
+        <div class="card">
+            <p>klik <a href="https://adhwayafitripamunh-star.github.io/JOKI-RODSS/rod.html">disini</a>
+            untuk masuk menu joki rods</p>
+            <br>
+            <br>
+            <br>
+            <div class="label">JOKI RODS</div>
+        </div>
+
+        <div class="card">
+            <p>klik <a href="https://adhwayafitripamunh-star.github.io/COIN/COIN.html">disini</a> untuk masuk menu joki koin</p>
+            <br>
+            <br>
+            <br>
+            <div class="label">JOKI COIN</div>
+        </div>
+
+        <div class="card">
+            <p>klik <a href="https://adhwayafitripamunh-star.github.io/TUMBAL/SEC.html">disini</a> untuk masuk menu secret tumbal</p>
+            <br>
+            <br>
+            <br>
+            <div class="label">SECRET TUMBAL</div>
+        </div>
+
+        <div class="card">
+            <p>klik <a href="https://adhwayafitripamunh-star.github.io/BATU-BATU/BATU.html">disini</a> untuk masuk menu batu enchant</p>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="label">BATU ENCHANT</div>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
